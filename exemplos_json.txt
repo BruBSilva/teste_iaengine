@@ -1,0 +1,39 @@
+-- criar dataset
+{
+    "nome": "Dados de Funcionários",
+    "descricao": "Conjunto de dados com informações de idade, salário e nome dos funcionários"
+}
+
+-- criar dados
+{
+    "dataset_id": 1,
+    "arquivo_csv": "aWRhZGUsc2FsYXJpbyxub21lCjI1LDUwMDAsYnJ1bmEKMzAsNjAwMCxqb8OjbwosNzAwMCxtYXJpYQ==",
+    "metadados_json": {
+        "idade": {
+            "tipo": "int",
+            "descricao": "Idade do usuário",
+            "unidade": "anos"
+        },
+        "salario": {
+            "tipo": "float",
+            "descricao": "Salário mensal",
+            "unidade": "BRL"
+        },
+        "nome": {
+            "tipo": "str",
+            "descricao": "Nome do usuário"
+        }
+    },
+    "tratamentos_json": {
+        "idade": {
+            "preencher_na": 0,
+            "padrao": "media"
+        },
+        "salario": {
+            "normalizar": true
+        },
+        "nome": {
+            "padronizar": "capitalize"
+        }
+    }
+}

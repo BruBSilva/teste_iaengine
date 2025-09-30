@@ -1,0 +1,23 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
