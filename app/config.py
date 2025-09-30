@@ -8,8 +8,6 @@ class Config:
     # DB
     PORT = int(os.getenv("PORT", 5050))
     DEBUG = os.getenv("DEBUG", "false").lower() == "true"
-    APP_NAME = os.getenv("APP_NAME", "IA-ENGINE")
-    INSTANCE_ID = os.getenv("INSTANCE_ID", "iaengine-1")
     HOST = os.getenv("HOST", "localhost")
 
     # Banco de dados
