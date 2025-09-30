@@ -5,6 +5,8 @@
 }
 
 -- criar dados
+-- o campo "arquivo_csv" é o base64 do csv com os dados. Deve ter formas melhores de receber isso.
+
 {
     "dataset_id": 1,
     "arquivo_csv": "aWRhZGUsc2FsYXJpbyxub21lCjI1LDUwMDAsYnJ1bmEKMzAsNjAwMCxqb8OjbwosNzAwMCxtYXJpYQ==",
